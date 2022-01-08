@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_background">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/play"
+        android:onClick="startGame" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:fontFamily="casual"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:textSize="38sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="cursive"
+        android:text="Falppy Panda"
+        android:textColor="#ffffff"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="173dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="160dp"
+        android:textFontWeight="2"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:text="By - Shubham Verma" />
+    <!-- Replace this with your ad unit Id -->
+
+</RelativeLayout>
